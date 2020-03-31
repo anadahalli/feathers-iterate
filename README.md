@@ -17,7 +17,7 @@ Configure on server and client
 ```javascript
 const iterate = require('feathers-iterate')
 
-app.configure(itereate())
+app.configure(iterate())
 ```
 
 Note: you must configure *feathers-iterate* **before** any services are registered.
